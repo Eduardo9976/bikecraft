@@ -1,0 +1,50 @@
+font-style: italic             estilo de texto
+
+font-weight: bold               peso da fonte  de 100 a 900  
+
+font-size: 1em  (16px computador celular é 14)                    tamanho da fonte
+
+font-family: helvetica, arial           Fontes 
+
+line-height: 25px                   altura da linha
+
+color: rgba(255,255,255,1)   (a= transparencia, opacidade      1 ou 0.5, etc...)
+
+font: font-style font-weight font-size/line-height font-family       meta propriedade
+font: italic        bold          14px/20px          helvetica
+
+
+---------------------------------------------------------------
+
+text-align:      left, rigth, center                       Alinha o texto
+
+text-transform:  uppercase, lowercase, capitalize
+
+text-indent:      px ou em    indenta o texto 
+
+text-decoration:    underline none overline  line-trothrougn
+
+text-shadow:   1px 3px  0 #fff    horizontal vertical  blur cor
+
+text: 
+
+--------------------------------------------------------------------------
+
+white-space:    nowrap, normal     define se o texto quebra ou não
+
+word-spacing: 1px define o espaçamento entre as palavras  px ou em
+
+letter_spacing: 1em  define o espaço entre as letras px ou em
+
+
+---------------------------------------------------------------------------
+
+list-style-type:  define o estilo do marcador da lista  circle, square, disc
+
+list-style-position: define posicao do marcador inside(por dentro ),outside(por fora)  
+
+list-style-img    substitui o marcador por uma imagem  url da imagem
+
+list-style:none    sem marcadores                   todos na ul
+
+------------------------------------------------------------------------------
