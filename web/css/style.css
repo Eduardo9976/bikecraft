@@ -27,6 +27,23 @@ p {
     background: #000;
     margin: 8px auto;
 }
+.subtitulo-interno  {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.subtitulo-interno::after {
+    content: "";
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin-top: 6px;
+}
 
 .btn {
     border: 3px solid #FEC63E;
@@ -45,6 +62,11 @@ p {
 .btn.btn-preto:hover {
     color: #000;
     border-color: #000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /*header*/
@@ -75,7 +97,13 @@ p {
 }
 .header_menu  ul li a:hover {
     color: #fff;
-}    
+}
+.header img:hover {
+    background-color: #fff;
+}
+#menu_ativo{
+    color: #fff;
+}   
 
 /*introducao*/
 
@@ -84,7 +112,7 @@ p {
     height: 380px;
     background: url("../img/index/bg.jpg") no-repeat center;
     background-size: cover;
-    margin-top: 96px;
+    margin-top: 92px;
     text-align: center;
     padding-top: 80px;
 }
@@ -118,6 +146,30 @@ p {
     letter-spacing: .1em;
 }
 
+/* Introdução interna */
+.introducao_interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+.introducao_interna  h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.introducao_interna h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
+}
+
 /*PRODUTOS*/
 .produtos{
     padding: 60px 0;
@@ -144,11 +196,14 @@ p {
 }
 
 .produtos_lista-icone {
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     padding: 20px;
 }
 .produtos_lista li p {
     padding: 10px 20px 20px 20px;
+}
+.img_produto {
+    margin: 0 auto;
 }
 
 .call {
@@ -179,4 +234,113 @@ p {
 }
 .portifolio .call p {
     color: #fff;
+}
+
+/*Qualidade */
+
+.qualidade{
+    padding: 60px 0;
+    overflow: auto; /*clear fix */
+}
+.qualidade::after {
+    content: '';
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center ;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+.qualidade_lista li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 30px;
+}
+.qualidade_lista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 6px auto;
+}
+/*Quebra */
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.quebra .quote-externo {
+  max-width: 400px;
+}
+/*footer*/
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color:#FEC63E;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+.footer h3::after {
+  content: '';
+display: block;
+width: 60px;
+height: 3px;
+background: #FEC63E;
+margin: 6px 0 12px 0;
+}
+.footer_historia {
+    padding-right: 40px;
+}
+.footer_contato  ul li {
+    font-size: 14px;
+    line-height:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer_redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer_redes ul li a {
+    border: 3px solid #FEC63E;
+    display: block;
+    padding: 10px;
+}
+.footer_redes ul li a:hover {
+    border-color: #fff;
+}
+.footer_redes ul li a img {
+    width: 26px;
+    height: 26px;
+}
+.copy {
+    width: 100% ;
+    background: #FEC63E;
+    padding: 20px;
+}
+.copy div p {
+    font-size: 18px;
 }

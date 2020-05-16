@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcraft</title>
-    <link rel="stylesheet" href="css/normalize.css.css">
+    <title>Bikcraft - Sobre</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/responsivo.css">
-
+    
 </head>
 <body>
     <header class="header"> 
@@ -19,7 +20,7 @@
         </a>
         <nav class="header_menu grid-12">
           <ul>
-            <li><a href="sobre.html"> Sobre </a></li>
+            <li><a href="sobre.html" id="menu_ativo"> Sobre </a></li>
             <li><a href="produtos.html"> Produtos </a></li>
             <li><a href="portifolio.html"> Portifólio </a></li>
             <li><a href="contato.html"> Contato </a></li>
@@ -27,71 +28,39 @@
         </nav>    
     </div>
     </header>
+    <!--Fechar header-->
 
-    <section class="introducao">
-      <div class="container">
-        <h1> Bicicletas feitas a mão </h1>
-        <blockquote class="quote-externo">
-          <p> "não tenha nada em sua casa que você não considera
-             útil ou acredita ser bonito" </p>
-             <cite> William Morris </cite>
-        </blockquote>
-        <a href="produtos.html" class="btn" > Orçamento </a>
-      </div>
+    <section class="introducao_interna interna_sobre ">
+        <div class="container">
+            <h1> Sobre </h1>
+            <p>Conheça mais sobre a Bikcraft</p>
+          </div>
     </section> 
-    <!-- fechad introdução -->
+    <!-- fecha introdução -->
+    <section class="missao_sobre container">
+      <div class="grid-10">
+          <h2 class="subtitulo-interno"> História, missão e visão </h2>
+          <p> O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo 
+          a ser o texto padrão usado por estas indústrias desde o ano de 1500.</p>
 
-    <section class="produtos container">
-      <h2 class="subtitulo">Produtos</h2>
-      <ul class="produtos_lista">
-        
-        <li class="grid-1-3">
-          <div class="produtos_lista-icone">
-          <img src="/img/produto/passeio.svg" alt="bikcraft passeio" class="img_produto">
-        </div>
-          <h3>Passeio</h3>
-          <p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
-        </li>
-
-        <li class="grid-1-3">
-          <div class="produtos_lista-icone">
-          <img src="/img/produto/esporte.svg" alt="bikcraft esporte" class="img_produto">
-        </div>
-          <h3>Esporte</h3>
-          <p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
-        </li>
-
-        <li class="grid-1-3">
-          <div class="produtos_lista-icone">
-          <img src="/img/produto/retro.svg" alt="bikcraft retro" class="img_produto">
-        </div>
-          <h3>Retrô</h3>
-          <p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
-        </li>
-
-      </ul>
-      <div class="call">
-        <p> Clique aqui e veja </p>
-        <a href="produtos.html" class="btn btn-preto">Produtos</a>
-
+          <p>Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se
+            essencialmente inalterada. Foi popularizada nos anos 60 </p>
       </div>
-    </section>
-    <!---- Fecha produtos -->
-    <section class="portifolio">
-      <div class="container">
-        <h2 class="subtitulo"> Portifólio </h2>
-        <ul class="portifolio_lista">
-          <li class="grid-8"><img src="/img/portifolio/retro.jpg" alt="bicicleta retro"></li>
-          <li class="grid-8"><img src="/img/portifolio/passeio.jpg" alt="bicicleta passeio"></li>
-          <li class="grid-16"><img src="/img/portifolio/esporte.jpg" alt="bicicleta esporte"></li>
+      <div grid-6>
+        <ul>
+          <h2 class="subtitulo-interno"> Valores</h2>
+          <li> - Qualidade no processo com </li>
+          <li> - Foco no cliente sem perder a </li>
+          <li> - Diversão preservando a </li>
+          <li> - Natureza com sustentabilidade </li>
         </ul>
-        <div class="call">
-          <p> Conheça mais o nosso portifólio </p>
-          <a href="portifolio.html" class="btn ">Portifólio</a>
-        </div>  
+      </div>
+      <div class="grid-16 foto_equipe"> 
+        <img src="img/sobre/equipe-bikcraft.jpg" alt="equipe bikcraft">
       </div>
     </section>
-    <!--Fecha portifolio-->
+    <!--Fecha missão-->
+
     <section class="qualidade container">
       <h2 class="subtitulo"> Qualidade </h2>
       <img src="img/bikcraft-qualidade.svg" alt="bikcraft" class="img_qualidade">
@@ -109,10 +78,7 @@
           <p> O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto </p>
         </li> 
       </ul>
-      <div class="call">
-        <p> Conheça mais a nossa história </p>
-        <a href="sobre.html" class="btn btn-preto">Sobre</a>
-      </div>
+      
     </section>
     <!--Fecha qualidade-->
     <section class="quebra">
