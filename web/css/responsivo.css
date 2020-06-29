@@ -8,7 +8,7 @@
     padding: 0 10px;
   }
 
-   /* footer */
+  /* footer */
   .footer_redes ul li a {
     padding: 6px;
   }
@@ -16,16 +16,15 @@
   /*produtos */
   .produto_item {
     padding-top: 30px;
-}
+  }
   .produto_item h2 {
     top: -150px;
   }
-  .produto_icone{
-    background:#000;
+  .produto_icone {
+    background: #000;
     padding: 41px 0;
   }
   .produto_info p {
-    
     font-size: 14px;
     line-height: 25px;
     padding: 20px 30px;
@@ -34,14 +33,11 @@
   .produto_info ul li {
     width: 181px;
     height: 49px;
-  } 
-  .endereco{
+  }
+  .endereco {
     left: 38px;
-  } 
+  }
 }
-
-
-
 
 /* estilo para smartphones */
 @media only screen and (max-width: 787px) {
@@ -51,22 +47,21 @@
     padding-bottom: 0;
   }
   .header img {
-    margin: 0 auto 10px auto ;
+    margin: 0 auto 10px auto;
   }
   .header_menu {
     text-align: center;
   }
-  .header_menu  ul li {
+  .header_menu ul li {
     margin: 5px;
-
   }
-  .header_menu  ul li a {
+  .header_menu ul li a {
     border: 4px solid #000;
     width: 136px;
     display: block;
     float: left;
   }
-  .header_menu  ul li a:hover {
+  .header_menu ul li a:hover {
     border-color: #fff;
   }
 
@@ -74,16 +69,15 @@
   .introducao {
     margin-top: 0;
     padding-top: 40px;
-    background: url("../img/bg-mobile.jpg") no-repeat center;
+    background: url(".../img/bg-mobile.jpg") no-repeat center;
     background-size: cover;
   }
   .introducao h1 {
     font-size: 36px;
-    
-}
-.introducao_interna {
-  margin-top: 0;
-}
+  }
+  .introducao_interna {
+    margin-top: 0;
+  }
 
   /*call */
   .call {
@@ -103,44 +97,44 @@
     font-size: 14px;
     line-height: 25px;
   }
-    /*produtos */
-    .produto_item {
-      padding-top: 30px;
+  /*produtos */
+  .produto_item {
+    padding-top: 30px;
   }
-    .produto_item h2 {
-      top: -110px;
-      margin-bottom: -68px;
-    }
-    .produto_icone{
-      background:#000;
-      padding: 41px 0;
-    }
-    .produto_info p {
-      font-size: 14px;
-      line-height: 25px;
-      height: auto;
-      padding: 20px 30px;
-    }
-    .produto_info ul li {
-      width: 149px;
-      height: 49px;
-      font-size: 14px;
-      line-height: 20px;
-      padding-top: 14px;
-    }
-    .form {
-      padding-right: 0px;
-    }
-    .orcamento_dados {
-      padding-right: 0px;
-    }
-    /* contato */
-    .contato_form {
-      padding-right: 0px;
-      margin-bottom: 40px;
-    }
-    .endereco{
-      margin-top: -20px;
-      margin-bottom: 20px;
-    }
-}  
+  .produto_item h2 {
+    top: -110px;
+    margin-bottom: -68px;
+  }
+  .produto_icone {
+    background: #000;
+    padding: 41px 0;
+  }
+  .produto_info p {
+    font-size: 14px;
+    line-height: 25px;
+    height: auto;
+    padding: 20px 30px;
+  }
+  .produto_info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+  .form {
+    padding-right: 0px;
+  }
+  .orcamento_dados {
+    padding-right: 0px;
+  }
+  /* contato */
+  .contato_form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+  .endereco {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+}
